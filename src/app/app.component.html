@@ -1,0 +1,7 @@
+<!-- <router-outlet></router-outlet> -->
+
+<input type="file" #img id="img" (change)="preview(img.files)">
+
+<app-image-cropper [src]="selectedImg"></app-image-cropper>
+
+ 
